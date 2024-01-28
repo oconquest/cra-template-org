@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Familjen+Grotesk&family=Lobster+Two&family=Monoton&family=Oleo+Script&family=Onest&family=Press+Start+2P&family=Roboto&display=swap');
+
+@font-face {
+  font-family: 'SF Pro';
+  src: url('./assets/fonts/SF\ Pro.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'WRG';
+  src: url('./assets/fonts/WRG.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Firs';
+  src: url('./assets/fonts/Firs.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Helvet';
+  src: url('./assets/fonts/Helvet.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Haas';
+  src: url('./assets/fonts/Haas.ttf') format('truetype');
+}
+
+
+img{
+pointer-events: none !important;
+}
+
+body {
+  position: absolute;
+  width: 100vw;
+  min-height: 100vh;
+  top: 0;
+  left: 0;
+  margin: 0;
+  font-family: 'Onest', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} 
+
+.material-icons-outlined{
+  text-transform: lowercase;
+}
+
+.material-icons-sharp{
+  text-transform: lowercase;
+}
+
+.material-icons-round{
+  text-transform: lowercase;
+}
+
+.material-icons-two-tone{
+  text-transform: lowercase;
+}
+
+.material-symbols-outlined{
+  text-transform: lowercase;
+}
+
+.material-symbols-sharp{
+  text-transform: lowercase;
+}
+
+.material-symbols-rounded{
+  text-transform: lowercase;
+}
+
+::-webkit-scrollbar{
+display:none;
+}
